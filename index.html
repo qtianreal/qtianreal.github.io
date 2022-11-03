@@ -78,11 +78,11 @@ body {
                 <li class="page-scroll">
                     <a onclick="javascript:reset_menus();$('#tab-6-content').show();" href="#research">Research</a>
                 </li>
-				<li class="page-scroll">
-                    <a onclick="javascript:reset_menus();$('#tab-6-content').show();" href="#publications">Publications</a>
-                </li>
                 <li class="page-scroll">
                     <a onclick="javascript:reset_menus();$('#tab-2-content').show();" href="#grant">Projects</a>
+                </li>
+				<li class="page-scroll">
+                    <a onclick="javascript:reset_menus();$('#tab-6-content').show();" href="#publications">Publications</a>
                 </li>
                 <li class="page-scroll">
                     <a onclick="javascript:reset_menus();$('#tab-5-content').show();" href="#teaching">Teaching</a>
@@ -154,7 +154,7 @@ body {
             <hr class="star-primary">
             <p class="lead">
             Qing Tian is an Assistant Professor of Computer Science at <a target="_blank" href="https://www.bgsu.edu/">Bowling Green State University</a>, OH, USA, where he founded and directs the BG Computer Vision Laboratory. He holds a Ph.D. in Electrical and Computer Engineering from <a href="https://www.mcgill.ca/" target="_blank">McGill University</a>, QC, Canada.
-            His primary research interests lie in <b> Computer Vision and Machine Learning</b>, particularly <i>Task-specific pruning of deep nets; autonomous driving perception; neural architecture search; adversarial AI.</i>
+            His primary research interests lie in Computer Vision and Machine Learning, particularly <i>Task-specific pruning of deep nets; autonomous driving perception; neural architecture search; adversarial AI.</i>
 			</p>
 			
 			<p>
@@ -208,6 +208,41 @@ body {
     </div>
 </section>
 
+<!-- Publication Section -->
+<section id="publications">
+    <div class="container lead">
+        <div style="text-align: left; margin-top:10px" class="col-md-12">
+
+            <i class="noshow" style="display:none;" id="tab-3">
+                <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-3-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-right"></span></button>
+            </i>
+            <div class="allshow" style="display:none;" id="tab-3-content">
+            <hr class="star-primary">
+
+            <h2>Publications</h2>
+			<h3>Journals</h3>
+
+            <ul>
+			    <li>Lan, Q., & <b>Tian, Q.</b> (2022). <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857" target="_blank">Instance, Scale, and Teacher Adaptive Knowledge Distillation for Visual Detection in Autonomous Driving</a>. <i>IEEE Transactions on Intelligent Vehicles</i>, accepted for publication (DOI: 10.1109/TIV.2022.3217261). </li>
+			    <li><b>Tian, Q.</b>, Chanda, S., Kumar KC, A., & Gray, D. (2022). <a href="https://link.springer.com/article/10.1007/s11042-022-13424-8" target="_blank">Improving apparel detection with category grouping and multi-grained branches</a>. <i>Multimedia Tools and Applications</i>, https://doi.org/10.1007/s11042-022-13424-8. </li>
+			    <li><b>Tian, Q.</b>, Arbel, T., & Clark, J. J. (2021). <a href="https://doi.org/10.1016/j.cviu.2020.103154" target="_blank">Task dependent deep LDA pruning of neural networks</a>. <i>Computer Vision and Image Understanding (CVIU)</i>, 203, 103154.</li>
+				<li><b>Tian, Q.</b>, Arbel, T., & Clark, J. J. (2018). <a href="https://doi.org/10.1016/j.imavis.2018.06.008" target="_blank">Structured deep Fisher pruning for efficient facial trait classification</a>. <i>Image and Vision Computing (IVC)</i>, 77, 45-59.</li>
+            </ul>
+			<h3>Conferences</h3>
+			<ul>
+			    <li>Choi, J., & <b>Tian, Q.</b> (2022). Adversarial Attack and Defense of YOLO Detectors in Autonomous Driving Scenarios. In Proceedings of the 33rd IEEE Intelligent Vehicles Symposium (IV) (pp. 1011-1017).</li>
+				<li>Lan, Q., & <b>Tian, Q.</b> (2022). Adaptive Instance Distillation for Object Detection in Autonomous Driving. accepted to the 26th International Conference on Pattern Recognition (ICPR).</li>
+				<li>Moradi, S., Lee, J. K., & <b>Tian, Q.</b> (2021). Exploration of U-Net in Automated Solar Coronal Loop Segmentation. In Proceedings of the 29th International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (pp. 227-236).</li>
+				<li><b>Tian, Q.</b>, Arbel, T., & Clark, J. J. (2017). Deep lda-pruned nets for efficient facial gender classification. In Proceedings of the IEEE Computer Society Workshop on Biometrics held in conjunction with IEEE International Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 10-19).</li>
+				<li><b>Tian, Q.</b>, Arbel, T., & Clark, J. J. (2016). Shannon information based adaptive sampling for action recognition. In Proceedings of the 23rd International Conference on Pattern Recognition (ICPR) (pp. 967-972).</li>
+				<li><b>Tian, Q.</b>, & Clark, J. J. (2013). Real-time specularity detection using unnormalized wiener entropy. In Proceedings of the 2013 International Conference on Computer and Robot Vision (CRV) (pp. 356-363).</li>
+			</ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Teaching Section -->
 <section id="teaching">
 
@@ -231,41 +266,6 @@ body {
     </div>
 </section>
 
-<!-- Publication Section -->
-<section id="publications">
-    <div class="container lead">
-        <div style="text-align: left; margin-top:10px" class="col-md-12">
-
-            <i class="noshow" style="display:none;" id="tab-3">
-                <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-3-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-right"></span></button>
-            </i>
-            <div class="allshow" style="display:none;" id="tab-3-content">
-            <hr class="star-primary">
-
-            <h2>Publications</h2>
-			<h3>Journals</h3>
-
-            <ul>
-			    <li>Lan, Q., & <b>Tian, Q.</b> (2022). <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7274857" target="_blank">Instance, Scale, and Teacher Adaptive Knowledge Distillation for Visual Detection in Autonomous Driving</a>. <i>IEEE Transactions on Intelligent Vehicles</i>, accepted for publication. </li>
-			    <li><b>Tian, Q.</b>, Chanda, S., Kumar KC, A., & Gray, D. (2022). <a href="https://link.springer.com/article/10.1007/s11042-022-13424-8" target="_blank">Improving apparel detection with category grouping and multi-grained branches</a>. <i>Multimedia Tools and Applications</i>, https://doi.org/10.1007/s11042-022-13424-8. </li>
-			    <li><b>Tian, Q.</b>, Arbel, T., & Clark, J. J. (2021). <a href="https://doi.org/10.1016/j.cviu.2020.103154" target="_blank">Task dependent deep LDA pruning of neural networks</a>. <i>Computer Vision and Image Understanding (CVIU)</i>, 203, 103154.</li>
-				<li><b>Tian, Q.</b>, Arbel, T., & Clark, J. J. (2018). <a href="https://doi.org/10.1016/j.imavis.2018.06.008" target="_blank">Structured deep Fisher pruning for efficient facial trait classification</a>. <i>Image and Vision Computing (IVC)</i>, 77, 45-59.</li>
-            </ul>
-			<h3>Conferences</h3>
-			<ul>
-			    <li>Choi, J., & <b>Tian, Q.</b> (2022). Adversarial Attack and Defense of YOLO Detectors in Autonomous Driving Scenarios. In Proceedings of the 33rd IEEE Intelligent Vehicles Symposium (IV) (pp. 1011-1017).</li>
-				<li>Lan, Q., & <b>Tian, Q.</b> (2022). Adaptive Instance Distillation for Object Detection in Autonomous Driving. accepted to the 26th International Conference on Pattern Recognition (ICPR).</li>
-				<li>Moradi, S., Lee, J. K., & <b>Tian, Q.</b> (2021). Exploration of U-Net in Automated Solar Coronal Loop Segmentation. In Proceedings of the 29th International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (pp. 227-236).</li>
-				<li><b>Tian, Q.</b>, Arbel, T., & Clark, J. J. (2017). Deep lda-pruned nets for efficient facial gender classification. In Proceedings of the IEEE Computer Society Workshop on Biometrics held in conjunction with IEEE International Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 10-19).</li>
-				<li><b>Tian, Q.</b>, Arbel, T., & Clark, J. J. (2016). Shannon information based adaptive sampling for action recognition. In Proceedings of the 23rd International Conference on Pattern Recognition (ICPR) (pp. 967-972).</li>
-				<li><b>Tian, Q.</b>, & Clark, J. J. (2013). Real-time specularity detection using unnormalized wiener entropy. In Proceedings of the 2013 International Conference on Computer and Robot Vision (CRV) (pp. 356-363).</li>
-			</ul>
-
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Professional Activities Section -->
 <section id="activities">
     <div class="container lead">
@@ -281,7 +281,7 @@ body {
             <ul>
 				<li>Ad hoc Reviewer:
 				<ul>
-				<li><a href="https://cis.ieee.org/publications/t-neural-networks-and-learning-systems" target="_blank">IEEE Transactions on Neural Networks and Learning Systems</a>, <a href="https://www.springer.com/journal/10462" target="_blank">Artificial Intelligence Review</a>, <a href="https://www.journals.elsevier.com/computer-vision-and-image-understanding" target="_blank">Computer Vision and Image Understanding</a>, <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a>, <a href="https://www.springer.com/journal/11045" target="_blank">Multidimensional Systems and Signal Processing</a>, and many conferences</li>
+				<li><a href="https://cis.ieee.org/publications/t-neural-networks-and-learning-systems" target="_blank">IEEE Transactions on Neural Networks and Learning Systems</a>, <a href="https://www.springer.com/journal/10462" target="_blank">Artificial Intelligence Review</a>, <a href="https://www.journals.elsevier.com/computer-vision-and-image-understanding" target="_blank">Computer Vision and Image Understanding</a>, <a href="https://ieeeaccess.ieee.org/" target="_blank">IEEE Access</a>, <a href="https://www.mdpi.com/journal/electronics" target="_blank">Electronics</a>, <a href="https://www.mdpi.com/journal/applsci" target="_blank">Applied Sciences</a>, <a href="https://www.springer.com/journal/11045" target="_blank">Multidimensional Systems and Signal Processing</a>, and many conferences</li>
 				<!--   <li>International Conference on Pattern Recognition, International Conference on Computer Science and Application Engineering</li>    -->
 				</ul>
 				<li>Session Chair or Program Committee Member:
@@ -299,7 +299,7 @@ body {
 <footer>
     <small>
     <center>
-        Last update: Oct. 10, 2022. Credits: AR template
+        Last update: Nov. 3, 2022. Credits: AR template
     <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
     <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: 
     <a href="https://github.com/dmsl/academic-responsive-template"_blank">
