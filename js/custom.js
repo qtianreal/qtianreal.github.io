@@ -100,3 +100,13 @@ jQuery(document).ready(function($) {
  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-70658068-1', 'auto');
 ga('send', 'pageview');
+
+// Expand/collapse the lower-tier journal entries, which sit in place in the
+// chronological list so the expanded view stays sorted by year.
+function toggleMore(cls, el) {
+    var $items = $('.' + cls);
+    var showing = $items.first().is(':visible');
+    $items.toggle(!showing);
+    el.innerHTML = showing ? '\u2026 ' + $items.length + ' more' : 'Show fewer';
+    return false;
+}
