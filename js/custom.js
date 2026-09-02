@@ -107,6 +107,6 @@ function toggleMore(cls, el) {
     var $items = $('.' + cls);
     var showing = $items.first().is(':visible');
     $items.toggle(!showing);
-    el.innerHTML = showing ? '\u2026 ' + $items.length + ' more' : 'Show fewer';
+    el.innerHTML = showing ? '\u2026 more' : '\u2026 less';
     return false;
 }
