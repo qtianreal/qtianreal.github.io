@@ -78,6 +78,7 @@ jQuery(document).ready(function($) {
                                         });
                        sizing(windowWidth);
                        internal_link();
+                       $('[data-toggle="tooltip"]').tooltip();
                        });
 
 
