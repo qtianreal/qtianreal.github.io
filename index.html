@@ -45,6 +45,11 @@ body {
     margin-left: 2px;
     cursor: help;
 }
+/* Contact column: on wide layouts, start level with the title line under the name */
+.home-contact { margin-top: 35px; }
+@media (min-width: 992px) {
+    .home-contact { margin-top: 76px; }
+}
 /* Slightly wider content on large screens (Bootstrap default is 1170px) */
 @media (min-width: 1240px) {
     .container { width: 1210px; }
@@ -130,7 +135,11 @@ body {
             Department of Computer Science<br>
             University of Alabama at Birmingham<br>
             UH 4153 | 1402 10th Avenue South<br> 
-			Birmingham, AL, USA<br>
+			Birmingham, AL, USA
+            </h4>
+        </div>
+        <div align="left" class="col-md-4 home-contact">
+            <h4>
             Email:
             <script language="JavaScript">
                 <!--
@@ -138,6 +147,8 @@ body {
                 spiderjam('qtian','uab.edu');
                 -->
             </script><br/>
+            <a href="https://scholar.google.com/citations?user=gHuVioYAAAAJ&hl" target="_blank">Google Scholar</a><br/>
+            <a href="https://www.linkedin.com/in/qing-tian-21b3b750" target="_blank">LinkedIn</a>
             </h4>
         </div>
     </div>
